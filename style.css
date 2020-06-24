@@ -6,8 +6,9 @@
   --button-color: #3498db;
 }
 
-* {
+html {
   box-sizing: border-box;
+  font-size: 62.5%;
 }
 
 body {
@@ -24,28 +25,29 @@ body {
   background-color: white;
   border-radius: 5px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-  width: 400px;
+  width: 40rem;
+  font-size: 1.6rem;
 }
 
 h2 {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 2rem;
 }
 
 .form {
-  padding: 30px 40px;
+  padding: 3rem 4rem;
 }
 
 .form-control {
-  margin-bottom: 10px;
-  padding-bottom: 20px;
+  margin-bottom: 1rem;
+  padding-bottom: 2rem;
   position: relative;
 }
 
 .form-control label {
   color: #777;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 0.5rem;
 }
 
 .form-control input {
@@ -53,8 +55,8 @@ h2 {
   border-radius: 4px;
   display: block;
   width: 100%;
-  padding: 10px;
-  font-size: 14px;
+  padding: 1rem;
+  font-size: 1.4rem;
 }
 
 .form-control input:focus {
@@ -89,8 +91,8 @@ h2 {
   border-radius: 4px;
   color: white;
   display: block;
-  font-size: 16px;
-  padding: 10px;
-  margin-top: 20px;
+  font-size: 1.6rem;
+  padding: 1rem;
+  margin-top: 2rem;
   width: 100%;
 }
